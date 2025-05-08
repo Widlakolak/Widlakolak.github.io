@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  var apiRoot = 'https://tasks-a0pc.onrender.com/v1/tasks';
+  const apiRoot = 'https://tasks-a0pc.onrender.com/v1/tasks';
   const trelloApiRoot = 'https://tasks-a0pc.onrender.com/v1/trello';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
